@@ -1,0 +1,16 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+
+    background-color: $gray-700;
+    background-image: url(../img/background-1.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

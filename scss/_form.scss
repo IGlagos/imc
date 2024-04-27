@@ -1,0 +1,50 @@
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+
+    input {
+        background-color: rgba(89, 89, 89, 0.5);
+        font-size: 20px;
+        height: 50px;
+        padding-left: 15px;
+        border-radius: 5px;
+        border: 1px solid $border;
+    }
+
+    // para sumir seta de aumento e diminuição nos inputs
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+
+
+    
+    button {
+        background-color: $brand;
+        font-size: 20px;
+        color: $h1-color;
+        height: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $brand-light;
+        }
+
+        &:active {
+            transform: scale(0.98);
+            background-color: $brand-dark;
+        }
+    }
+
+}

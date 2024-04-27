@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@import 'utils';
+@import 'imc';
+
+.modo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: $text-input; 
+}
+select{
+    background-color: $brand;
+    color: $text-input;
+}
+
+.light{
+
+    background-image: url(../img/comidasaudavel.jpg);
+
+    .content-imc{
+        background-color: rgba(255, 255, 255, 0.479);
+    
+
+    input{
+        background-color: white;
+        color: black;
+
+    };
+
+    h1,h2,h3,p{
+        color: #333333;
+    }
+    }
+}

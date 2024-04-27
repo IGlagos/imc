@@ -1,0 +1,60 @@
+.content-imc {
+    width: 558px;
+    border: solid 1px $gray-700;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: $bg-card;
+    backdrop-filter: blur(10px);
+
+    header {
+
+        text-align: center;
+
+        img {
+            margin-bottom: 20px
+        }
+
+        ;
+
+        h1 {
+            font-size: 32px;
+            @include title();
+        }
+
+        p {
+            color: $h1-color;
+            font-size: 14px;
+        }
+
+
+    }
+
+    @import 'form';
+
+    .result {
+        text-align: center;
+
+        h2 {
+            @include title();
+
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        h3 {
+            @include title();
+            margin-top: 5px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+
+    }
+
+    @media (max-width: 768px) {
+        width: 85%;
+        padding: 20px;
+    }
+
+}

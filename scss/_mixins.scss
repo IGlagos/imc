@@ -1,0 +1,9 @@
+
+//Mixins --> São "Funções" de formatação
+
+
+@mixin title() {
+    color: $h1-color;
+    font-family: "Teko", sans-serif;
+    line-height: 100%;
+}
